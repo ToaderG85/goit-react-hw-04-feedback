@@ -1,0 +1,27 @@
+.statistics_container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.1;  
+    border: 1px solid transparent;
+    border-radius: 6px;
+    width: 100px;  
+
+}
+
+.good {
+    background-color: #5bfb1c;
+}
+
+.neutral{
+    background-color: #eeff00;
+}
+
+.bad {
+    background-color: #ff0000;
+}
