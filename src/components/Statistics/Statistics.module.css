@@ -1,5 +1,6 @@
 .statistics_container {
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 20px;
 }
@@ -10,7 +11,11 @@ p {
     line-height: 1.1;  
     border: 1px solid transparent;
     border-radius: 6px;
-    width: 100px;  
+    width: 170px;  
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+
 
 }
 

@@ -32,7 +32,7 @@ export const App = () => {
   const positiveFeedback = countPositiveFeedbackPercentage();
 
    return (
-    <div>      
+    <div className="container">      
       <Buttons
         feedbackOptions={feedbackOptions}
         onFeedback={handleFeedback}

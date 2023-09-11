@@ -11,7 +11,7 @@ export default function Statistics({ good, neutral, bad, totalFeedback, positive
             <p className={style.neutral}>Neutral: {neutral}</p>
             <p className={style.bad}>Bad: {bad}</p>
             <p>Total: {totalFeedback}</p>
-            <p>Percentage:{positiveFeedback}%</p>
+            <p>Percentage: {positiveFeedback}%</p>
         </div>
     </div>    
   )
